@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_17" data-name="Group 17" transform="translate(-481)">
+    <circle id="Oval" cx="40" cy="40" r="40" transform="translate(481)" fill="#004885"/>
+    <g id="np_crane_1618398_FFFFFF" transform="translate(482.672 13.377)">
+      <path id="Path_48" data-name="Path 48" d="M42.964,66.572v-2.51H37.473v2.51a1.424,1.424,0,0,0,.471,1.1l1.1,1.02a3.908,3.908,0,0,1-.314,5.8,4.006,4.006,0,0,1-5.412-.392L29.865,70.65a7.309,7.309,0,0,0-.157,3.451,7.937,7.937,0,0,0,8.079,6.353,7.725,7.725,0,0,0,5.491-12.864,1.962,1.962,0,0,1-.314-1.02Z" transform="translate(-1.498 -30.347)" fill="#fff"/>
+      <path id="Path_49" data-name="Path 49" d="M26.562,11.752,35.19,3.124h6.275l8.628,8.628v8.707L41.465,32.146H35.19L26.562,20.38Z" fill="#fff"/>
+      <path id="Path_50" data-name="Path 50" d="M29.694,7.831,28.125,9.4V3.125h1.569Z" transform="translate(-0.778 0)" fill="#fff"/>
+      <path id="Path_51" data-name="Path 51" d="M35.944,4.694,34.375,6.262V3.125h1.569Z" transform="translate(-3.891 0)" fill="#fff"/>
+      <path id="Path_52" data-name="Path 52" d="M68.75,7.831,70.319,9.4V3.125H68.75Z" transform="translate(-21.01 0)" fill="#fff"/>
+      <path id="Path_53" data-name="Path 53" d="M62.5,4.694l1.569,1.569V3.125H62.5Z" transform="translate(-17.897 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

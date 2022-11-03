@@ -1,0 +1,231 @@
+@media all and (max-width: 1160px){
+/** *********************** home responsive start *********************** **/	
+	.container{
+		padding: 0 2rem;
+		box-sizing: border-box;
+	}
+	body{
+		overflow-x: hidden;
+	}
+	.menu ul li a,
+	.contact a:first-child{
+		font-size: 1.6rem;
+	}
+/** *********************** home responsive end *********************** **/	
+}
+
+
+
+
+@media all and (max-width: 990px){
+/** ***********************  home responsive start *********************** **/	
+	.menu{
+		display: none;
+	}
+	.menu-i{
+		display: block;
+	}
+	.service-area{
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 5rem;
+	}
+	h2{
+		font-size: 4rem;
+	}
+	.main-partners{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.partners img{
+		margin-bottom: 5rem;
+	}
+/** ***********************  home responsive end *********************** **/
+
+
+
+
+/** *********************** what we do responsive start *********************** **/
+	.which-area{
+		grid-template-columns: repeat(1, 1fr);
+		justify-items: center;
+	}
+	.which-img-area{
+		margin-bottom: 8rem;
+	}
+/** *********************** what we do responsive end *********************** **/
+}
+
+
+
+
+@media all and (max-width: 767px){
+/** *********************** home responsive start *********************** **/	
+	.logo a:first-child{
+		display: none;
+	}
+	.logo a:last-child{
+		display: block;
+	}
+	.banner-area h1{
+		font-size: 5rem;
+		line-height: 5rem;
+	}
+	.banner-area p{
+		font-size: 2rem;
+	}
+	.recycling-area{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.recycle-img{
+		max-width: 100%;
+	}
+	.recycling-area:before{
+		background: none;
+	}
+	.recycling-img-area{
+		margin-bottom: 10rem;
+	}
+	.stange-area{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.stange-img-area{
+		padding: 0;
+	}
+	.stange-content{
+		margin-bottom: 10rem;
+	}
+	.stange-img{
+		max-width: 100%;
+	}
+	.heavy-area{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.heavy-img{
+		margin-bottom: 5rem;
+		max-width: 100%;
+	}
+	.partners{
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: center;
+	}
+	.top-footer{
+		grid-template-columns: repeat(2, 1fr);
+		justify-items: start;
+	}
+	.single-footer:not(:last-child){
+		margin-bottom: 5rem;
+	}
+/** *********************** home responsive end *********************** **/
+
+
+
+
+/** *********************** what we do responsive start *********************** **/
+.choose-area{
+	flex-direction: column;
+}
+.choose-content{
+	margin-bottom: 10rem;
+}
+.single-images1{
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 3rem;
+}
+.single-images1 .img:nth-of-type(3){
+	grid-column: span 2;
+}
+.single-images2 .img:nth-of-type(1){
+	grid-column: span 6;
+}
+.single-images2 .img:nth-of-type(2){
+	grid-column: span 6;
+}
+.single-images2 .img:nth-of-type(3){
+	grid-column: span 12;
+}
+.single-images2{
+	grid-row-gap: 3rem;
+}
+/** *********************** what we do responsive end *********************** **/
+}
+
+
+
+
+@media all and (max-width: 575px){
+/** *********************** home responsive start *********************** **/	
+	.service-area{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.partners{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.partners img:last-child{
+		grid-column: span 2;
+		justify-items: center;
+	}
+	.top-footer{
+		grid-template-columns: repeat(1, 1fr);
+	}
+/** *********************** home responsive end *********************** **/
+
+
+
+
+/** *********************** what we do responsive start *********************** **/
+.single-choose-area{
+	grid-template-columns: repeat(1, 1fr);
+}
+.single-choose{
+	text-align: center;
+}
+.single-choose img{
+	display: inline-block;
+}
+/** *********************** what we do responsive end *********************** **/
+}
+
+
+
+
+@media all and (max-width: 480px){
+/** *********************** home responsive start *********************** **/
+	h2{
+		font-size: 3.5rem;
+	}	
+	.stange-content h2{
+		font-size: 3rem;
+	}
+	.heavy-content .ul{
+		flex-direction: column;
+	}
+	
+/** *********************** home responsive end *********************** **/
+
+
+
+
+/** *********************** what we do responsive start *********************** **/
+.list{
+	flex-direction: column;
+}
+.list1{
+	margin-bottom: 4rem;
+}
+.single-images1{
+	grid-template-columns: repeat(1, 1fr);
+}
+.single-images1 .img:nth-of-type(3){
+	grid-column: span 1;
+}
+.single-images2 .img:nth-of-type(1){
+	grid-column: span 12;
+}
+.single-images2 .img:nth-of-type(2){
+	grid-column: span 12;
+}
+/** *********************** what we do responsive end *********************** **/
+.single-images2{
+	grid-column-gap: 0;
+}
+}
